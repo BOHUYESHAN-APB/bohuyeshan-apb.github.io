@@ -39,9 +39,6 @@ social:
   fab fa-github: https://github.com/BoHuYeShan || Github || '#24292e'
   fab fa-github: https://space.bilibili.com/316318805 || bilibili || '#FB7299'
 
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
-
 # Image (圖片設置)
 # --------------------------------------
 
@@ -102,7 +99,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
