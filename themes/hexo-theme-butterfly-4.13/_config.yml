@@ -242,9 +242,9 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
+      icon: fab fa-bilibili
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://space.bilibili.com/316318805
   card_announcement:
     enable: true
     content: This is my Blog
