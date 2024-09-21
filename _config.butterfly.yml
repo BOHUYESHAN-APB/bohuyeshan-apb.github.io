@@ -398,7 +398,7 @@ sharejs:
 # AddToAny
 # https://www.addtoany.com/
 addtoany:
-  enable: false
+  enable: true
   item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
 # Comments System
