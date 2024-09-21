@@ -38,6 +38,8 @@ social:
   fab fa-github-square: https://github.com/BOHUYESHAN-APB || Github博客仓库 || '#525252'
   fab fa-github: https://github.com/BoHuYeShan || Github个人仓库 || '#24292e'
   fab fa-bilibili: https://space.bilibili.com/316318805 || bilibili个人主页 || '#FB7299'
+  
+  
 
 # Image (圖片設置)
 # --------------------------------------
@@ -47,8 +49,8 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
-  effect: false
+  img: https://s2.loli.net/2024/09/21/xdWqH5JRsYzvGAC.jpg
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -232,9 +234,9 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
+      icon: fab fa-bilibili
       text: Follow Me
-      link: https://github.com/BOHUYESHAN
+      link: https://space.bilibili.com/316318805
   card_announcement:
     enable: true
     content: This is my Blog
@@ -398,7 +400,7 @@ sharejs:
 # AddToAny
 # https://www.addtoany.com/
 addtoany:
-  enable: flase
+  enable: true
   item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
 # Comments System
