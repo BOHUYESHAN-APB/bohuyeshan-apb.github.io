@@ -35,7 +35,7 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/BOHUYESHAN-APB || Github博客仓库 || '#525252'
+  fab fa-github-square: https://github.com/BOHUYESHAN-APB || Github博客仓库 || '#525252'
   fab fa-github: https://github.com/BoHuYeShan || Github个人仓库 || '#24292e'
   fab fa-bilibili: https://space.bilibili.com/316318805 || bilibili个人主页 || '#FB7299'
 
