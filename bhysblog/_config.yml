@@ -103,6 +103,6 @@ theme: hexo-theme-butterfly-4.13
 deploy:
   type: git
   repo: https://github.com/BOHUYESHAN-APB/BOHUYESHAN-APB.github.io.git
-  branch: main
-  
+  branch: master
+
 
