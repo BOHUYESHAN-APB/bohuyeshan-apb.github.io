@@ -57,8 +57,8 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
-  effect: false
+  img: https://sm.ms/image/xdWqH5JRsYzvGAC
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
