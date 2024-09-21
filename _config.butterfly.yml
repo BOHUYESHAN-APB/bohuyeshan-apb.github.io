@@ -36,8 +36,8 @@ code_word_wrap: false
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/BOHUYESHAN-APB || Github || '#525252'
-  fab fa-github: https://github.com/BoHuYeShan || Github || '#24292e'
-  fab fa-github: https://space.bilibili.com/316318805 || bilibili || '#FB7299'
+  fab fa-git: https://github.com/BoHuYeShan || Github || '#24292e'
+  fab fa-bilibili: https://space.bilibili.com/316318805 || bilibili || '#FB7299'
 
 # Image (圖片設置)
 # --------------------------------------
