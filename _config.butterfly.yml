@@ -234,7 +234,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/BOHUYESHAN-APB
+      link: https://github.com/BOHUYESHAN
   card_announcement:
     enable: true
     content: This is my Blog
