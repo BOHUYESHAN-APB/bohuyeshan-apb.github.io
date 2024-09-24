@@ -50,7 +50,7 @@ favicon: /img/favicon.png
 # Avatar (頭像)
 avatar:
   img: https://s2.loli.net/2024/09/21/xdWqH5JRsYzvGAC.jpg
-  effect: true
+  effect: flase
 
 # Disable all banner image
 disable_top_img: true
