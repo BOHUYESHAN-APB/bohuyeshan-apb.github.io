@@ -53,7 +53,7 @@ avatar:
   effect: flase
 
 # Disable all banner image
-disable_top_img: true
+disable_top_img: flase
 
 # The banner image of home page
 index_img:
