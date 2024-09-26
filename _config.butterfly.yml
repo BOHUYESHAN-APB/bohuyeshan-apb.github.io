@@ -8,23 +8,21 @@ nav:
   fixed: false # fixed navigation bar
 
 # Menu 目錄
-
 menu:
-  首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  清单||fa fa-heartbeat:
-    音乐: /music/ || fas fa-music
-    照片: /Gallery/ || fas fa-images
-    电影: /movies/ || fas fa-video
-  友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
-
+首页: / || fas fa-home
+时间轴: /archives/ || fas fa-archive
+标签: /tags/ || fas fa-tags
+分类: /categories/ || fas fa-folder-open
+清单||fa fa-heartbeat:
+  音乐: /music/ || fas fa-music
+  照片: /Gallery/ || fas fa-images
+  电影: /movies/ || fas fa-video
+友链: /link/ || fas fa-link
+关于: /about/ || fas fa-heart
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: darker #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -35,11 +33,11 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-github-square: https://github.com/BOHUYESHAN-APB || Github博客仓库 || '#525252'
+  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
+  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/BOHUYESHAN-APB || Github博客仓库 || '#525252'
   fab fa-github: https://github.com/BoHuYeShan || Github个人仓库 || '#24292e'
-  fab fa-bilibili: https://space.bilibili.com/316318805 || bilibili个人主页 || '#FB7299'
-  
-  
+  fab fa-github: https://space.bilibili.com/316318805 || bilibili主页 || '#FB7299'
 
 # Image (圖片設置)
 # --------------------------------------
@@ -50,16 +48,18 @@ favicon: /img/favicon.png
 # Avatar (頭像)
 avatar:
   img: https://sm.ms/image/xdWqH5JRsYzvGAC
-  effect: flase
+  effect: true
 
 # Disable all banner image
-disable_top_img: flase
+disable_top_img: false
 
 # The banner image of home page
-index_img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
+index_img: 
+img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
+default_top_img: 
+img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
 
 # The banner image of archive page
 archive_img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
@@ -101,7 +101,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: true
+  enable: false
   subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -235,7 +235,7 @@ aside:
     button:
       enable: true
       icon: fab fa-bilibili
-      text: Follow Me
+      text: 去哔哩哔哩找到我！
       link: https://space.bilibili.com/316318805
   card_announcement:
     enable: true
@@ -285,8 +285,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true 
+  publish_date: 8/8/2020 00:00:00 
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -400,7 +400,7 @@ sharejs:
 # AddToAny
 # https://www.addtoany.com/
 addtoany:
-  enable: true
+  enable: false
   item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
 # Comments System
@@ -701,14 +701,14 @@ canvas_nest:
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: false
+  enable: true 
   zIndex: 9999 # -1 or 9999
   mobile: false
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: true
-  mobile: true
+  enable: false
+  mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 clickShowText:
@@ -766,7 +766,7 @@ subtitle:
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: true
+  source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
