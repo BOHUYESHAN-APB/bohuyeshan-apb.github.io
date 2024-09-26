@@ -58,7 +58,8 @@ index_img:
 img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
+default_top_img: 
+img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
 
 # The banner image of archive page
 archive_img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
