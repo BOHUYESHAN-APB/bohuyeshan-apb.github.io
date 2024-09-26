@@ -35,10 +35,10 @@ code_word_wrap: false
 social:
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
-  fab fa-github: https://github.com/BOHUYESHAN-APB || Github博客仓库 || '#525252'
+  fab fa-github-square: https://github.com/BOHUYESHAN-APB || Github博客仓库 || '#525252'
   fab fa-github: https://github.com/BoHuYeShan || Github个人仓库 || '#24292e'
-  fab fa-github: https://space.bilibili.com/316318805 || bilibili主页 || '#FB7299'
-
+  fab fa-bilibili: https://space.bilibili.com/316318805 || bilibili个人主页 || '#FB7299'
+  
 # Image (圖片設置)
 # --------------------------------------
 
@@ -54,10 +54,12 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
+index_img: 
+img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
+default_top_img: 
+img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
 
 # The banner image of archive page
 archive_img: https://img.picui.cn/free/2024/09/24/66f29ff7af8ae.jpg
