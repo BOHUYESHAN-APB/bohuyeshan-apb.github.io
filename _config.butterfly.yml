@@ -751,6 +751,7 @@ hr_icon:
   icon-top:
 
 # the subtitle on homepage (主頁subtitle)
+loop: true
 subtitle:
   enable: true
   # Typewriter Effect (打字效果)
