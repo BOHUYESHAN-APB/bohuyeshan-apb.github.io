@@ -769,7 +769,9 @@ subtitle:
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub: 
   -Per Aspera Ad Astra
-  -"愿此行终抵群星" 
+  -愿此行终抵群星
+  -愿代码不再出错
+  -愿此实验可以复现
 
 
 # Loading Animation (加載動畫)
