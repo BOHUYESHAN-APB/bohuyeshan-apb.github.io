@@ -766,7 +766,7 @@ subtitle:
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
-  sub:
+  sub: 
   -Per Aspera Ad Astra
   -愿此行终抵群星
   
@@ -997,3 +997,4 @@ CDN:
     # valine:
     # waline_css:
     # waline_js:
+  
