@@ -48,7 +48,7 @@ favicon: /img/favicon.png
 # Avatar (頭像)
 avatar:
   img: https://s2.loli.net/2024/09/21/xdWqH5JRsYzvGAC.jpg
-  effect: false # false / true
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -99,7 +99,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: true
+  enable: false
   subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -108,7 +108,7 @@ post_meta:
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: true # true or false 主頁是否顯示標籤
+    tags: false # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -141,7 +141,7 @@ photofigcaption: false
 copy:
   enable: true
   copyright:
-    enable: true
+    enable: false
     limit_count: 50
 
 # Post
@@ -158,7 +158,7 @@ toc:
 
 post_copyright:
   enable: true
-  decode: true
+  decode: false
   author_href:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -194,13 +194,13 @@ related_post:
 # 1: The 'next post' will link to old post
 # 2: The 'next post' will link to new post
 # false: disable pagination
-post_pagination: 2
+post_pagination: 1
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: true
+  enable: false
   style: flat # style: simple/flat
-  limit_day: 365 # When will it be shown
+  limit_day: 500 # When will it be shown
   position: top # position: top/bottom
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
@@ -299,9 +299,9 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: true
+  enable: false
   # The text of a button
-  default: 简
+  default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
@@ -325,11 +325,11 @@ darkmode:
   # autoChangeMode: false
   autoChangeMode: false
   # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
-  start: 8
-  end: 22
+  start: # 8
+  end: # 22
 
 # show scroll percent in scroll-to-top button
-rightside_scroll_percent: true
+rightside_scroll_percent: false
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -725,10 +725,10 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: true
+  enable: false
   field: post # site/post
-  title-prefix-icon: '\f0c1'
-  title-prefix-icon-color: '#F47466'
+  title-prefix-icon: # '\f0c1'
+  title-prefix-icon-color: # '#F47466'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -757,7 +757,6 @@ subtitle:
   effect: true
   # Customize typed.js (配置typed.js)
   # https://github.com/mattboldt/typed.js/#customization
-  loop: true
   typed_option:
   # source 調用第三方服務
   # source: false 關閉調用
@@ -767,16 +766,13 @@ subtitle:
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
-  sub: 
+  sub:
   -Per Aspera Ad Astra
-#  -愿此行终抵群星
-#  -愿代码不再出错
-#  -愿此实验可以复现
-
-
+  -愿此行终抵群星
+  
 # Loading Animation (加載動畫)
 preloader:
-  enable: true
+  enable: false
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
