@@ -17,3 +17,9 @@
 6. github
 7. vercel
 8. cloudflare
+
+
+# 分支说明
+master分支是直接发布的博客，是直接本地git到远端的hexo blog。
+main分支是主要内容，版本较新
+future作为备份，防止主要内容又出现大量错误以便未来恢复。
