@@ -1,5 +1,5 @@
 ---
-title: 説説
+title: 音乐
 date: 2024-10-17 09:17:49
-type: 'shuoshuo'
+type: 'music'
 ---
